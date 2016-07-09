@@ -1,6 +1,5 @@
 require 'nokogiri'
 require 'open-uri'
-require 'Pry'
 
 class Review
   attr_accessor :title, :link, :artist, :genre, :type
